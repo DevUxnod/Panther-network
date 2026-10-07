@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="logo.png" width="128" alt="Panther VPN">
+  <img src="logo.png" width="128" alt="Panther Connect">
 </p>
 
-<h1 align="center">Panther VPN</h1>
+<h1 align="center">Panther Connect</h1>
 
 <p align="center">
-  Быстрый VPN-клиент для Android и Windows. Одна кнопка, авто-выбор лучшего сервера, обход блокировок.
+  Быстрый и свободный интернет на Android и Windows. Одна кнопка, авто-выбор лучшего сервера, работает там, где другие не могут.
 </p>
 
 <p align="center">
@@ -18,10 +18,11 @@
 
 ## Возможности
 
-- **Одна кнопка.** Вставил ссылку подписки — нажал — работает.
+- **Одна кнопка.** Вошёл через Telegram или по ключу доступа — нажал — работает.
 - **Авто-выбор сервера.** Приложение само держит самый быстрый сервер и переключается, если он просел.
 - **Обход блокировок.** VLESS + Reality на ядре Xray, отдельная группа серверов «ОБХОД» для сетей с ограничениями.
 - **Российские сайты напрямую.** Режим, в котором банки и Госуслуги открываются без VPN и не ругаются на иностранный IP.
+- **Сплит-туннелирование.** Выбери приложения, которые идут мимо VPN (Android и Windows).
 - **Без утечек.** Весь трафик и DNS идут через туннель, IPv6 не уходит мимо.
 - **Без слежки в приложении.** Нет аналитики, рекламы и трекеров. Журнал посещений на устройстве выключен.
 - **Проверка IP.** После подключения видно, из какой страны тебя видит интернет.
@@ -45,9 +46,9 @@
 1. Скачай `.apk` по ссылке выше и открой файл.
 2. Android попросит разрешить установку из этого источника — разреши.
 3. Если Play Protect предупредит о неизвестном приложении — нажми «Всё равно установить»: приложение распространяется не через Google Play, поэтому Google его не знает.
-4. Открой Panther VPN, вставь ссылку подписки и нажми кнопку подключения.
+4. Открой Panther Connect и нажми «Войти через Telegram» (бот подтвердит вход сам) — или вставь ключ доступа из бота.
 
-Обновления ставятся поверх: скачай новый `.apk` и установи — подписка и настройки сохранятся.
+Новые версии приложение ставит само. Если у тебя версия 1.0.x — скачай новый `.apk` и установи поверх, подписка и настройки сохранятся.
 
 ### Windows
 
@@ -56,7 +57,7 @@
 3. В окне «Разрешить этому приложению вносить изменения?» нажми «Да» — права нужны для сетевого адаптера, окно будет появляться при каждом запуске.
 4. Вставь ключ доступа из бота или нажми «Войти через Telegram».
 
-На Windows приложение называется **Panther Connect**. Крестик сворачивает его в трей (значок рядом с часами), соединение продолжает работать; полный выход — правый клик по значку → «Выход». Новые версии приложение ставит само.
+Крестик сворачивает его в трей (значок рядом с часами), соединение продолжает работать; полный выход — правый клик по значку → «Выход». Новые версии приложение ставит само.
 
 Подписку можно получить в Telegram-боте [@VpnPantherBot](https://t.me/VpnPantherBot).
 
@@ -74,7 +75,7 @@
 
 - Помощь и вопросы: [@HQpantherBot](https://t.me/HQpantherBot)
 - Подписка и оплата: [@VpnPantherBot](https://t.me/VpnPantherBot)
-- Сайт: [app.panther.pics](https://app.panther.pics)
+- Сайт: [panthervpn.org](https://panthervpn.org)
 
 Если что-то не работает: в приложении открой **Настройки → Логи → Отправить** и перешли файл в поддержку. В файле нет адресов серверов, ключей и ссылки подписки.
 
@@ -85,15 +86,17 @@
 <details>
 <summary><b>English</b></summary>
 
-**Panther VPN** is a fast VPN client for Android and Windows built on Xray-core (VLESS + Reality).
+**Panther Connect** is a fast Android and Windows client built on Xray-core (VLESS + Reality).
 
 - One-tap connect with automatic best-server selection
+- Sign in via Telegram or with an access key
+- Split tunneling: pick apps that bypass the tunnel
 - Works on restricted networks
 - No traffic or DNS leaks; no analytics, ads or trackers in the app
 - Shows your exit country after connecting
 
-**Download:** [PantherVPN-arm64-v8a.apk](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherVPN-arm64-v8a.apk) (most phones) · [armeabi-v7a](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherVPN-armeabi-v7a.apk) (old 32-bit devices) · [Windows installer](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherConnect-Setup-x64.exe) (Windows 10/11, 64-bit; the app is called Panther Connect there)
+**Download:** [PantherVPN-arm64-v8a.apk](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherVPN-arm64-v8a.apk) (most phones) · [armeabi-v7a](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherVPN-armeabi-v7a.apk) (old 32-bit devices) · [Windows installer](https://github.com/DevUxnod/Panther-network/releases/latest/download/PantherConnect-Setup-x64.exe) (Windows 10/11, 64-bit)
 
-Get a subscription in the Telegram bot [@VpnPantherBot](https://t.me/VpnPantherBot), paste the link into the app and connect. Support: [@HQpantherBot](https://t.me/HQpantherBot).
+Get a subscription in the Telegram bot [@VpnPantherBot](https://t.me/VpnPantherBot), sign in via Telegram (or paste the access key) and connect. Support: [@HQpantherBot](https://t.me/HQpantherBot).
 
 </details>
